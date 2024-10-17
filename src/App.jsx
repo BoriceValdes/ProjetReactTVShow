@@ -66,7 +66,7 @@ export function App(){
       <div className={s.header}>
         <div className="row">
           <div className="col-4">
-            <div><Logo image={logo} title="Watowatch" subtitle="Find a show you may like" /></div>
+            <div><Logo image={logo} title="WatiWatch" subtitle="Find a show you may like" /></div>
           </div>
           <div className="col-sm-12 col-md-4">
             {<SearchBar onSubmit={searchTVShow}/>}

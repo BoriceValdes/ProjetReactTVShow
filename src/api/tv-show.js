@@ -8,7 +8,7 @@ export class TVShowAPI {
     }
     static async fetchRecommendations(tvShowTd){
         const response = await axios.get(`${BASE_URL}tv/${tvShowTd}/recommendations${API_KEY}`)
-        return response.data.results
+        return response.data.results4
     }
     static async fetchByTitle(title){
         const response = await axios.get(`${BASE_URL}search/tv${API_KEY}&query=${title}`)
