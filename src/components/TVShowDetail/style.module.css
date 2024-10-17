@@ -1,0 +1,26 @@
+.title{
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+}
+.rating_container{
+    color: white;
+    display: flex;
+}
+.rating{
+    color: white;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.overview:hover{
+    overflow-y: auto;
+}
+.overview{
+    color: white;
+    font-weight: 400;
+    font-family: Roboto;
+    height: 120px;
+    font-size: 20px;
+    overflow-y: hidden;
+    margin-top: 10px;
+}
