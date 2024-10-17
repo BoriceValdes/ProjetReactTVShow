@@ -6,7 +6,6 @@ import { BACKDROP_BASE_URL } from "./config";
 import { TVShowDetail } from "./components/TVShowDetail/TVShowDetail";
 import { Logo } from "./components/logo/Logo";
 import logo from "./assets/images/logo.png"
-import { TVShowListItem } from "./components/TVShowListItem/TVShowListItem";
 import { TVShowList } from "./components/TVShowList/TVShowList";
 import { SearchBar } from "./components/SearchBar/SearchBar";
 
@@ -33,7 +32,7 @@ export function App(){
         setRecommendationList(recommendations.slice(0,10))
       }
     }catch(error){
-      alert("Erreur durant la recherche des serie populaires")
+      alert("Erreur durant la recherche des recommendations")
     }
   }
   async function searchTVShow(tvShowName){
@@ -45,7 +44,7 @@ export function App(){
       }
     }
     catch(error){
-      alert("Erreur durant la recherche des serie populaires")
+      alert("Erreur durant la recherche des series")
     }
   }
 
